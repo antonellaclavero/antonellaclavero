@@ -3,42 +3,80 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 /*body*/
-
 body {
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Asap', Helvetica, Arial, sans-serif;
 }
 h1 {
-	text-align: left;
+	font-family: 'Englebert', sans-serif;
+	font-size: 2em;
+	color: #F8F8F8;
+	text-align: center;
 }
 a {
 	text-decoration: none;
 }
-/*header*/
-
-
-/*nav*/
-nav {
-	background-color: #334D5C;
-	padding: 30px;
-	border-bottom: 1px dashed white;
-}
-.navbar ul {
-	text-align: right;
-}
-.navbar li {
-	text-transform: uppercase;
-	display: inline-block;
-}
-.navbar a {
-	color: #aaa;
-	padding: 15px 25px;
-	font-size: 1em;
-}
-#sobre-mi {
-	background-color: #45B29D;
+p {
 	text-align: center;
-	padding: 150px;
-	border-bottom: 1px dashed white;
+	color: #333366;
+}
+/*layout*/
+.main-header,
+.wrapper,
+.main-footer {
+	padding: 50px 20%;
+} 
+/*header*/
+header h1 {
+	background: #DF5A49;
+	padding: 15px;
+	text-align: left;
+}
+nav .btn {
+	position: fixed;
+	top: 86px;
+	right: 100px;
+	z-index: 500;
+	cursor: pointer;
+}
+nav .btn span {
+	z-index: inherit;
+	background: #e95757;
+	width: 24px;
+	height: 4px;
+	border-radius: 1px;
+	display: block;
+	margin: 4px 0 0;
+}
+nav ul .arrow {
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid white;
+	margin-left: 72px;
+}
+nav ul {
+	position: fixed;
+	top: 140px;
+	right: 34px;
+	display: none;
+	width: 160px;
+	z-index: 500;
+	border-radius: 1px;
+}
+nav ul li a {
+	width: 100%;
+	padding: 12px 0;
+	background: white;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+}
+
+/*section*/
+#sobre-mi {
+	background-color: #E27A3F;
+	padding: 100px;
 }
 #sobre-mi img {
 	height: 200px;
@@ -49,23 +87,53 @@ nav {
 	display: block;
 	margin: auto;
 	margin-bottom: 20px;
-	margin-top: 20px;
-}
-#sobre-mi h1 {
-	text-align: center;
-	font-size: 20px;
-	margin: auto;
+	margin-top: 10px;
 }
 #proyectos {
 	background-color: #EFC94C;
-	padding: 150px;
-	text-align: center;
-	border-bottom: 1px dashed white;
+	padding: 60px;
+}
+/*img section projects*/
+.screen-shot section img {
+  margin-right: 2%;
+  width: 32%;
+  float: left;
 }
 #habilidades {
-	background-color: #E27A3F;
-	padding: 100px;
-	text-align: center;
-	border-bottom: 1px dashed white;
+	background-color: #45B29D;
+	padding: 60px;
+}
 
+/*footer*/
+.main-footer {
+	background-color: #334D5C;
+	padding: 60px;
+	text-align: center;
+}
+.contact li {
+	display: inline-block;
+}
+.contact a {
+	background: url("../images/social-media.png");
+	width: 32px;
+	height: 32px;
+	display: block;
+	opacity: 0.8;
+}
+.contact a span {
+	display: none;
+}
+.contact a:hover {
+	opacity: 1;
+}
+.contact a.e-mail {
+	background-position: 0px 0px;
+}
+.contact a.github {
+	background-position: 0px -42px;
+}
+
+/*screen shot img*/
+.screen-shot img {
+	float: left;
 }

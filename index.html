@@ -7,6 +7,7 @@
         <meta name="description" content="Front-End, CSS, HTML">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Englebert' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -14,15 +15,21 @@
         <![endif]-->
 
        <header>
-            <nav class="navbar">
+        <nav>
             <h1>Antonella Clavero</h1>
-                <ul>
+            <div class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="animated fadeIn" style="display: block;">
+                <div class="arrow"></div>
                     <li><a href="#sobre-mi">Sobre Mi</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
+                    <li><a href="#contacto">Contacto</a></li>    
+            </ul>
+        </nav>
         </header>
 
             <section id="sobre-mi">
@@ -32,7 +39,7 @@
                 </p>
             </section>
 
-            <section id="proyectos">
+            <section class="screen-shot" id="proyectos">
                 <h1>Mis proyectos</h1>
                 <ul>
                     <li>
@@ -54,11 +61,11 @@
 
             <section id="habilidades">
                 <h1>Habilidades</h1>
-                <p> HTML5, CSS3, Git, Twitter Boostrap, Diseño de interacción, Markup semántico</p>
+                <p> HTML5, CSS3, Git, Twitter Boostrap, Diseño de interacción, Markup semántico.</p>
             </section>
 
-            <footer id="contacto">
-                <ul>
+            <footer class="main-footer" id="contacto">
+                <ul class="contact">
                     <li>
                         <a class="e-mail" href="mailto:antonellaclavero@gmail.com" target="_blank">
                         <span>E-mail</span>
@@ -71,6 +78,6 @@
                         </a>
                     </li>
                 </ul>
-
+            </footer>
     </body>
 </html>
