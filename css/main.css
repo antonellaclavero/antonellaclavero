@@ -42,6 +42,28 @@ header,
 section {
 	padding: 5em 10%;
 }
+
+/*nav*/
+.nav ul {
+  text-align: center;
+}
+.nav li {
+  text-transform: uppercase;
+  font-size: 2em;
+  display: inline-block;
+}
+.nav a {
+  display: block;
+  padding: 20px 35px;
+  color: #FF6666;
+}
+#sobre-mi a {
+	background-color: red;
+  }
+.nav a:hover {
+  background: #FF9966;
+}
+
 /*section*/
 #sobre-mi img {
 	height: 200px;
@@ -54,15 +76,48 @@ section {
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
-footer {
-	background: url(../images/background.jpg);
-	padding: 1.5em 10%;
-	background-size: cover;
-}
+
 #proyectos img {
 	box-shadow: #F0F0F0  0 0 0 5px, #505050 0 0 0 5px; 	
 	opacity: 0.4;
 }
 #proyectos img:hover {
 	opacity: 1.0;
+}
+footer {
+	background: url("../images/background.jpg");
+	padding: 1.5em 10%;
+	background-size: cover;
+}
+/*footer*/
+.contact li {
+	display: inline-block;
+}
+.contact a {
+	background: url("../images/spriteicons.png");
+	width: 60px;
+	height: 60px;
+	display: block;
+	opacity: 0.8;
+}
+.contact a:hover {
+	opacity: 1;
+}
+.contact a span {
+	display: none;
+}
+.contact a.twitter {
+	background-position: 4px 0px;
+}
+.contact a.facebook {
+	background-position: 0px -46px;
+}
+.contact a.github {
+	background-position: 0px -92px;
+}
+.contact a.linkedin {
+	background-position: 0px -138px;
+}
+.contact a.e-mail {
+	background-position: 0px -184px;
 }
