@@ -10,14 +10,19 @@ body {
 h1 {
 	font-size: 2em;
 	color: #101010;
-	margin: 1em 0;
+	margin: 1em;
+	letter-spacing: 0.11em;
+}
+h2 {
+	font-size: 1.2em;
+	color: #505050;
 }
 p {
 	font-size: 1em;
 	color: #505050;
 	margin: 0.8em 0;
 }
-h2 {
+p strong {
 	font-style: italic;
 	font-size: 1.2em;
 }
@@ -26,44 +31,39 @@ a {
 }
 /*header*/
 header {
-	background: url(../images/background.jpg);
+	background: url("../images/background-12.jpg");
 	background-size: cover;
 }
 header img {
-	width: 115px;/*to do remove and rexing the actual image*/
-}
-header nav {
-	display: none; /*to do */
-}
-header p {
-	color: #101010;
+	width: 115px;   /*to do remove and rexing the act*/
+} 
+header h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.11em;
+	font-size: 2.4em;
 }
 header,
 section {
 	padding: 5em 10%;
 }
-
-/*nav*/
-.nav ul {
-  text-align: center;
+.hidden {
+	display: none;
 }
-.nav li {
-  text-transform: uppercase;
-  font-size: 2em;
-  display: inline-block;
+header nav ul {
+	margin-bottom: 2em;
 }
-.nav a {
-  display: block;
-  padding: 20px 35px;
-  color: #FF6666;
+header nav li{
+	display: inline-block;
 }
-#sobre-mi a {
-	background-color: red;
-  }
-.nav a:hover {
-  background: #FF9966;
+header nav a {
+	color: #282828;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0.5em;
+	font-size: 0.9em;
 }
-
 /*section*/
 #sobre-mi img {
 	height: 200px;
@@ -76,24 +76,29 @@ section {
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
-
-#proyectos img {
-	box-shadow: #F0F0F0  0 0 0 5px, #505050 0 0 0 5px; 	
+#projects img {
+	box-shadow: #F0F0F0  0 0 0 5px, #303030  0 0 0 5px; 	
 	opacity: 0.4;
 }
-#proyectos img:hover {
+#projects img:hover {
 	opacity: 1.0;
 }
+#projects section p {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.11em;
+}
+
+/*footer*/
 footer {
-	background: url("../images/background.jpg");
-	padding: 1.5em 10%;
+	background: url("../images/background-13.jpg");
+	padding: 2.5em 10%;
 	background-size: cover;
 }
-/*footer*/
 .contact li {
 	display: inline-block;
 }
-.contact a {
+/*.contact a {
 	background: url("../images/spriteicons.png");
 	width: 60px;
 	height: 60px;
@@ -120,4 +125,4 @@ footer {
 }
 .contact a.e-mail {
 	background-position: 0px -184px;
-}
+}*/
