@@ -98,10 +98,10 @@ footer {
 .contact li {
 	display: inline-block;
 }
-/*.contact a {
-	background: url("../images/spriteicons.png");
-	width: 60px;
-	height: 60px;
+.contact a {
+	background: url("../images/socialicons.png");
+	width: 36px;
+	height: 36px;
 	display: block;
 	opacity: 0.8;
 }
@@ -111,18 +111,19 @@ footer {
 .contact a span {
 	display: none;
 }
-.contact a.twitter {
-	background-position: 4px 0px;
-}
-.contact a.facebook {
-	background-position: 0px -46px;
+.contact a.e-mail {
+	background-position: 0px 0px;
 }
 .contact a.github {
+	background-position: 0px -46px;
+}
+.contact a.twitter {
 	background-position: 0px -92px;
 }
-.contact a.linkedin {
+.contact a.facebook {
 	background-position: 0px -138px;
 }
-.contact a.e-mail {
+.contact a.linkedin {
 	background-position: 0px -184px;
-}*/
+}
+
