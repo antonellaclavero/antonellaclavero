@@ -86,7 +86,8 @@ header nav a {
 #projects section p {
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 0.13em;
+	letter-spacing: 0.2em;
+	font-size: 1.4em;
 }
 
 /*footer*/
