@@ -97,6 +97,7 @@ header nav a {
 	letter-spacing: 0.2em;
 	font-size: 1.4em;
 	color: #555;
+	margin: 0.5em 0 2em 0;
 }
 
 /*footer*/
@@ -137,4 +138,15 @@ footer {
 .contact a.linkedin {
 	background-position: 0px -184px;
 }
-
+@media screen and (max-width: 1280px) {
+  .screen-shot section header {
+    height: 7em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .screen-shot section {
+    margin-right: 0;
+    width: 100%;
+    float: none;
+  }
+}
