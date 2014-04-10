@@ -150,4 +150,7 @@ footer {
     width: 100%;
     float: none;
   }
+  #projects img {
+	opacity: 1.0;
+  }
 }
