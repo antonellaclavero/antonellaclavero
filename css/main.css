@@ -10,7 +10,7 @@ body {
 h1 {
 	font-size: 2em;
 	color: #101010;
-	margin: 1em;
+	margin: 1em 0;
 	letter-spacing: 0.11em;
 }
 h2 {
@@ -29,14 +29,17 @@ p strong {
 a {
 	text-decoration: none;
 }
+
 /*header*/
 header {
 	background: url("../images/background-12.jpg");
 	background-size: cover;
 }
-header img {
-	width: 115px;   /*to do remove and rexing the act*/
-} 
+header p { 	 	
+	color: #101010; 	 	
+	font-size: 1.2em; 	 	
+	margin: 2em 0; 	 	
+}
 header h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
@@ -47,22 +50,23 @@ header,
 section {
 	padding: 5em 10%;
 }
-.hidden {
+h1.hidden {
 	display: none;
 }
 header nav ul {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
-header nav li{
+header nav li {
 	display: inline-block;
 }
 header nav a {
-	color: #282828;
+	color: #555;
+	/*color: #282828;*/
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 0.5em;
-	font-size: 0.9em;
+	padding: 1em;
+	font-size: 0.8em;
 }
 /*section*/
 #sobre-mi img {
@@ -76,9 +80,13 @@ header nav a {
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+#projects section{
+	padding: 0;
+}
 #projects img {
 	box-shadow: #F0F0F0  0 0 0 5px, #303030  0 0 0 5px; 	
 	opacity: 0.4;
+	max-width: 100%;
 }
 #projects img:hover {
 	opacity: 1.0;
@@ -88,16 +96,18 @@ header nav a {
 	font-weight: bold;
 	letter-spacing: 0.2em;
 	font-size: 1.4em;
+	color: #555;
 }
 
 /*footer*/
 footer {
 	background: url("../images/background-13.jpg");
-	padding: 2.5em 10%;
+	padding: 3em 10%;
 	background-size: cover;
 }
 .contact li {
 	display: inline-block;
+	margin: 0 1em;
 }
 .contact a {
 	background: url("../images/socialicons.png");
