@@ -32,8 +32,9 @@ a {
 
 /*header*/
 header {
-	background: url("../images/background-12.jpg");
+	background: url("../images/background.jpg");
 	background-size: cover;
+	background-position: center center;
 }
 header p { 	 	
 	color: #101010; 	 	
@@ -102,7 +103,7 @@ header nav a {
 
 /*footer*/
 footer {
-	background: url("../images/background-13.jpg");
+	background: url("../images/background.jpg");
 	padding: 3em 10%;
 	background-size: cover;
 }
