@@ -14,14 +14,11 @@ h1 {
 	margin: 1em 0;
 	letter-spacing: 0.11em;
 }
-h2 {
-	font-size: 1.2em;
-	color: #505050;
-}
 p {
 	font-size: 1em;
 	color: #505050;
-	margin: 0.8em 0;
+	margin: 1.2em 0;
+	text-align: center;
 }
 p strong {
 	font-style: italic;
@@ -33,7 +30,7 @@ a {
 
 /*header*/
 header {
-	background: url("../images/background-3.jpg");
+	background: url("../images/background-6.jpg");
 	background-size: cover;
 	background-position: center center;
 	opacity: 0.5;
@@ -50,9 +47,11 @@ header h1 {
 	font-size: 2.0em;
 	color: #fff;
 }
-header hr {
+hr {
 	border: none;
 	border-top: dashed 1px #fff;
+	margin-bottom: 2em;
+	width: 80%;
 }
 header,
 section {
@@ -96,7 +95,7 @@ header nav a {
 }
 #projects img {
 	box-shadow: #F0F0F0  0 0 0 5px, #303030  0 0 0 5px; 	
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 	max-width: 100%;
 }
 /*#projects img:hover {
@@ -113,7 +112,7 @@ header nav a {
 
 /*footer*/
 footer {
-	background: url("../images/background-3.jpg");
+	background: url("../images/background-6.jpg");
 	padding: 3em 10%;
 	background-size: cover;
 }
