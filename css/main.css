@@ -86,11 +86,8 @@ header nav a {
 }
 #projects img {
 	box-shadow: #F0F0F0  0 0 0 5px, #303030  0 0 0 5px; 	
-	opacity: 0.4;
+	/*opacity: 0.4;*/
 	max-width: 100%;
-}
-#projects img:hover {
-	opacity: 1.0;
 }
 #projects section p {
 	text-transform: uppercase;
