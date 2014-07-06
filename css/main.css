@@ -20,7 +20,8 @@ h2 {
 p {
 	font-size: 1em;
 	color: #505050;
-	margin: 0.8em 0;
+	margin: 0.8em 0.8em;
+	line-height: 1.5em;
 }
 p strong {
 	font-style: italic;
