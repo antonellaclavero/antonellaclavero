@@ -20,7 +20,7 @@ h2 {
 p {
 	font-size: 1em;
 	color: #505050;
-	margin: 0.8em 0.8em;
+	margin: 0.8em 0;
 	line-height: 1.5em;
 }
 p strong {
@@ -33,7 +33,7 @@ a {
 
 /*header*/
 header {
-	background: url("../images/background.jpg");
+	background: url("../images/background-3.jpg");
 	background-size: cover;
 	background-position: center center;
 }
@@ -101,7 +101,7 @@ header nav a {
 
 /*footer*/
 footer {
-	background: url("../images/background.jpg");
+	background: url("../images/background-3.jpg");
 	padding: 3em 10%;
 	background-size: cover;
 }
