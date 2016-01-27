@@ -137,6 +137,7 @@ footer {
 .contact a.linkedin {
 	background-position: 0px -184px;
 }
+
 @media screen and (max-width: 1280px) {
   .screen-shot section header {
     height: 7em;
