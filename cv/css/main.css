@@ -27,8 +27,9 @@ a {
 
 section.wrapper {
 	background-color: #ffdd23;
-	width: 23%;
+	width: 20%;
     padding: 5em 3%;
+    display: inline-block;
 }
 section.wrapper img {
 	width: 245px;
@@ -40,7 +41,7 @@ section.wrapper img {
 section.wrapper h1 {
 	margin: 1em 0 0.5em 0;
 	font-size: 28pt;
-	line-height: 28pt;
+	line-height: 34pt;
 	letter-spacing: 0.4pt;
 }
 section.wrapper h2 {
@@ -66,4 +67,52 @@ li a.uppercase {
 }
 li.link {
 	margin: 4em 0 0.5em 0;
+}
+section.container {
+	float: right;
+	width: 70%;
+}
+section.container h1 {
+	text-transform: uppercase;
+	color: #ffdd23;
+	border-bottom: 4px solid #f1f1f1;
+	display: inline-block;
+	margin: 2em 0 1em 0;
+    letter-spacing: 3px;
+}
+section.container p {
+	color: #4f4f4f;
+	text-transform: none;
+    text-align: left;
+    margin: 1em 0;
+    letter-spacing: 0.5px;
+}
+section.container a {
+	color: #989898;
+	text-transform: uppercase;
+	font-size: 12pt;
+	font-weight: 300;
+	line-height: 12pt;
+    margin-left: 0.5em;
+    letter-spacing: 0.5px;
+}
+section.container a:hover {
+	color: #ffdd23;
+}
+section.container article h2 {
+	text-transform: uppercase;
+	color: #4f4f4f;
+	text-align: left;
+	font-size: 13pt;
+	line-height: 13pt;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+section.container article h3 {
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+section.container article.experience li p.bulleted-list {
+	list-style: initial;
+    margin-left: 3em;
 }
