@@ -17,6 +17,13 @@ h3,
 p {
 	font-family: 'Lato', sans-serif;
 }
+a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 12pt;
+	line-height: 12pt;
+}
 
 section.wrapper {
 	background-color: #ffdd23;
@@ -25,8 +32,8 @@ section.wrapper {
 }
 section.wrapper img {
 	width: 245px;
+	height: 250px;
     border-radius: 50%;
-    height: 270px;
     display: block;
     margin: 0 auto;
 }
@@ -47,4 +54,16 @@ p {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
+}
+section.wrapper li p {
+	margin-bottom: 1em;
+}
+ul.contact li {
+	text-align: center;
+}
+li a.uppercase {
+	text-transform: uppercase;
+}
+li.link {
+	margin: 4em 0 0.5em 0;
 }
