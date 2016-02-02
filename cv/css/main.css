@@ -4,8 +4,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 h1 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 21pt;
-	line-height: 21pt;
+	font-size: 18pt;
+	line-height: 18pt;
 }
 h2 {
 	font-size: 16pt;
@@ -79,11 +79,11 @@ section.container {
 section.container h1 {
 	text-transform: uppercase;
 	color: #ffdd23;
-	border-bottom: 4px solid #f1f1f1;
 	display: inline-block;
     margin: 1em 0 0.5em 0;
     letter-spacing: 3px;
     padding: 5px 0;
+    border-bottom: 3px solid #f1f1f1;
 }
 section.container p {
 	color: #4f4f4f;
