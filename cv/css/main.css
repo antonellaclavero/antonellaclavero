@@ -4,8 +4,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 h1 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.2em;
-	line-height: 2.2em;
+	font-size: 21pt;
+	line-height: 21pt;
 }
 h2 {
 	font-size: 16pt;
@@ -30,6 +30,7 @@ section.wrapper {
 	width: 20%;
     padding: 5em 3%;
     display: inline-block;
+    height: 200vh;
 }
 section.wrapper img {
 	width: 245px;
@@ -72,13 +73,17 @@ section.container {
 	float: right;
 	width: 70%;
 }
+
+/*section container*/
+
 section.container h1 {
 	text-transform: uppercase;
 	color: #ffdd23;
 	border-bottom: 4px solid #f1f1f1;
 	display: inline-block;
-	margin: 2em 0 1em 0;
+    margin: 1em 0 0.5em 0;
     letter-spacing: 3px;
+    padding: 5px 0;
 }
 section.container p {
 	color: #4f4f4f;
@@ -113,6 +118,42 @@ section.container article h3 {
 	letter-spacing: 0.5px;
 }
 section.container article.experience li p.bulleted-list {
-	list-style: initial;
     margin-left: 3em;
 }
+
+/*article traning*/
+
+article.training li {
+	margin: 1.5em 0;
+}
+article.training p {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+/*article skills*/
+ul.bulleted-list {
+	display: table-cell;
+    width: 27%;
+    text-align: left;
+}
+
+ul.bulleted-list li:before {
+	left: 10px;
+	top: -4px;
+	content: "• ";
+	font-size: 14px;
+	color: #222;
+}
+ul.bulleted-list li {
+	font-family: 'Lato', sans-serif;
+	color: #4f4f4f;
+	margin: 0.5em 0;
+}
+
+/* article conferences*/
+
+article.conferences li {
+	margin: 1em 0;
+}
+
