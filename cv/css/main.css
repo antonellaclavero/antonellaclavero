@@ -83,7 +83,27 @@ section.container h1 {
     margin: 1em 0 0.5em 0;
     letter-spacing: 3px;
     padding: 5px 0;
-    border-bottom: 3px solid #f1f1f1;
+}
+
+/*gardient for h1*/
+
+h1.bot-left {
+  	position: relative;
+}
+.bot-left:after {
+	content: "";
+	position: absolute;
+	bottom: -3px;
+	left: -3px;
+}
+.bot-left:after {
+  	right: -3px;
+  	height: 3px;
+  	width: 30em;
+  	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#f1f1f1), to(transparent));
+  	background-image: -webkit-linear-gradient(left, #f1f1f1, transparent);
+  	background-image: -moz-linear-gradient(left, #f1f1f1, transparent);
+  	background-image: -o-linear-gradient(left, #f1f1f1, transparent);
 }
 section.container p {
 	color: #4f4f4f;
