@@ -10,7 +10,7 @@ h1 {
 h2 {
 	font-size: 16pt;
 	line-height: 16pt;
-	letter-spacing: 0.4pt;
+	letter-spacing: 1pt;
 }
 h2,
 h3,
@@ -24,7 +24,12 @@ a {
 	font-size: 12pt;
 	line-height: 12pt;
 }
-
+img#icons {
+	float: left;
+	width: 20px;
+    height: 21px;
+    margin: 0 0 0 2em;
+}
 section.wrapper {
 	background-color: #ffdd23;
 	width: 20%;
@@ -33,22 +38,28 @@ section.wrapper {
     height: 200vh;
 }
 section.wrapper img {
-	width: 245px;
-	height: 250px;
+    width: 212px;
+    height: 223px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
 }
 section.wrapper h1 {
 	margin: 1em 0 0.5em 0;
-	font-size: 28pt;
-	line-height: 34pt;
-	letter-spacing: 0.4pt;
+	font-size: 33pt;
+    line-height: 39pt;
+    letter-spacing: 6pt;
+    font-weight: 300;
+}
+div.border-bottom {
+	border-bottom: 3px solid #fff;
+	width: 120px;
+    display: block;
+    margin: 0 auto;
 }
 section.wrapper h2 {
-	margin: 1.5em 0 1.5em 0;
-	border-bottom: 3px solid #fff;
-	padding-bottom: 35px;
+	margin: 2em 0 0 0;
+    padding-bottom: 27px;
 }
 section.wrapper h1,
 h2,
@@ -63,19 +74,34 @@ section.wrapper li p {
 ul.contact li {
 	text-align: center;
 }
+ul.contact h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1pt;
+}
 li a.uppercase {
 	text-transform: uppercase;
 }
 li.link {
-	margin: 4em 0 0.5em 0;
+	padding: 4em 0 0.5em 0;
+	margin: 0.5em 0;
 }
 section.container {
 	float: right;
 	width: 70%;
 }
+li.link a {
+	margin: 1em 28% 0 0;
+}
+li.link-last a {
+	margin: 1em 0 0 1em;
+}
 
 /*section container*/
-
+section.container img {
+	width: 23px;
+	color: #222;
+}
 section.container h1 {
 	text-transform: uppercase;
 	color: #ffdd23;
@@ -111,6 +137,9 @@ section.container p {
     text-align: left;
     margin: 1em 0;
     letter-spacing: 0.5px;
+    padding: 0 25% 0 0;
+    font-size: 12pt;
+    line-height: 15pt;
 }
 section.container a {
 	color: #989898;
@@ -118,7 +147,6 @@ section.container a {
 	font-size: 12pt;
 	font-weight: 300;
 	line-height: 12pt;
-    margin-left: 0.5em;
     letter-spacing: 0.5px;
 }
 section.container a:hover {
@@ -141,6 +169,14 @@ section.container article.experience li p.bulleted-list {
     margin-left: 3em;
 }
 
+/*article experience*/
+
+article.experience ul {
+	margin: 1.5em 0;
+}
+ul.bulleted-list li.bulleted {
+	margin: 1em 0 1em 2em;
+}
 /*article traning*/
 
 article.training li {
@@ -170,6 +206,7 @@ ul.bulleted-list li {
 	color: #4f4f4f;
 	margin: 0.5em 0;
 }
+
 
 /* article conferences*/
 
