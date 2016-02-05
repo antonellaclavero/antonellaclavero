@@ -226,15 +226,6 @@ article.conferences li {
 }
 @media screen and (max-width: 700px) {
 	section.wrapper {
-		width: 40%;
-		padding: 0;
-	}
-	section.container {
-		width: 57%
-	}
-}
-@media screen and (max-width: 450px) {
-	section.wrapper {
     	width: 100%;
     	padding: 2em 0;
     	height: auto;
@@ -253,6 +244,13 @@ article.conferences li {
     section.container p {
     	padding: 0;
     }
+	.bot-left:after {
+		width: auto;
+	}
+	section.container p {
+		padding: 0 7% 0 0;
+	}
 }
+
 
 
