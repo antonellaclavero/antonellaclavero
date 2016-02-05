@@ -8,8 +8,8 @@ h1 {
 	line-height: 18pt;
 }
 h2 {
-	font-size: 16pt;
-	line-height: 16pt;
+	font-size: 14pt;
+	line-height: 14pt;
 	letter-spacing: 1pt;
 }
 h2,
@@ -32,7 +32,7 @@ img#icons {
 }
 section.wrapper {
 	background-color: #ffdd23;
-	width: 20%;
+	width: 22%;
     padding: 5em 3%;
     display: inline-block;
     height: 200vh;
@@ -101,6 +101,7 @@ li.link-last a {
 section.container img {
 	width: 23px;
 	color: #222;
+	margin-right: 0.5em
 }
 section.container h1 {
 	text-transform: uppercase;
@@ -124,8 +125,10 @@ h1.bot-left {
 }
 .bot-left:after {
   	right: -3px;
+  	left: -35px;
   	height: 3px;
   	width: 30em;
+
   	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#f1f1f1), to(transparent));
   	background-image: -webkit-linear-gradient(left, #f1f1f1, transparent);
   	background-image: -moz-linear-gradient(left, #f1f1f1, transparent);
@@ -213,4 +216,43 @@ ul.bulleted-list li {
 article.conferences li {
 	margin: 1em 0;
 }
+
+/*Media queries*/
+
+@media screen and (max-width: 1200px) {
+	li.link-last a {
+		margin: 0;
+	}
+}
+@media screen and (max-width: 700px) {
+	section.wrapper {
+		width: 40%;
+		padding: 0;
+	}
+	section.container {
+		width: 57%
+	}
+}
+@media screen and (max-width: 450px) {
+	section.wrapper {
+    	width: 100%;
+    	padding: 2em 0;
+    	height: auto;
+    }
+    img#icons {
+    	margin: 0 0 0 6em;
+    }
+    li.link-last a {
+    	margin: 0 2em 0 0;
+    }
+    section.container {
+    	width: auto;
+    	padding: 2em 8%;
+    	float: none;
+    }
+    section.container p {
+    	padding: 0;
+    }
+}
+
 
