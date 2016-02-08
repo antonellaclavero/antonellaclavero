@@ -180,6 +180,7 @@ article.experience ul {
 ul.bulleted-list li.bulleted {
 	margin: 1em 0 1em 2em;
 }
+
 /*article traning*/
 
 article.training li {
@@ -230,8 +231,17 @@ article.conferences li {
     	padding: 2em 0;
     	height: auto;
     }
+    ul.contact li.link,
+	li.link-last {
+		text-align: left;
+		padding: 0 19%;
+		margin: 2em 0;
+	}
+	ul.contact li.link-last {
+		text-align: left;
+	}
     img#icons {
-    	margin: 0 0 0 6em;
+    	margin: 0 1em 0 3em;
     }
     li.link-last a {
     	margin: 0 2em 0 0;
@@ -246,6 +256,10 @@ article.conferences li {
     }
 	.bot-left:after {
 		width: auto;
+		left: 0;
+	}
+	section.container article img {
+		display: none;
 	}
 	section.container p {
 		padding: 0 7% 0 0;
