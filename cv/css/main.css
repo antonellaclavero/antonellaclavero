@@ -128,7 +128,6 @@ h1.bot-left {
   	left: -35px;
   	height: 3px;
   	width: 30em;
-
   	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#f1f1f1), to(transparent));
   	background-image: -webkit-linear-gradient(left, #f1f1f1, transparent);
   	background-image: -moz-linear-gradient(left, #f1f1f1, transparent);
