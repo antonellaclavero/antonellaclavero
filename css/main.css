@@ -24,7 +24,7 @@ a {
 /*header*/
 
 header {
-	padding: 70px 19%;
+	padding: 70px 20%;
 }
 nav {
 	display: inline-block;
@@ -51,7 +51,7 @@ header nav li a.border {
 /*section about*/
 
 section.about {
-	padding: 0 19%;
+	padding: 0 20%;
 }
 section.about p {
 	font-size: 14pt;
@@ -69,7 +69,7 @@ section.about p.margin-before {
 
 /*section projects*/
 section.works {
-	padding: 90px 0;
+	padding: 90px 0 0 0;
 }
 .projects {
 	overflow: auto;
@@ -103,3 +103,4 @@ li.four-project {
 	background-color: #F3E0F7;
 	padding: 4% 0;
 }
+
