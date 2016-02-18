@@ -102,5 +102,23 @@ li.three-project {
 li.four-project {
 	background-color: #F3E0F7;
 	padding: 4% 0;
-}
+}	
+/*transition for projects*/
 
+/*media queries*/
+
+@media screen and (max-width: 700px) {
+	h1 {
+		margin-bottom: 0;
+	}
+	header {
+    	padding: 55px 15%;
+    }
+	section.about {
+    	padding: 0 15%;
+	}
+	li.project-card {
+		float: none;
+		width: 100%;
+	}
+}
