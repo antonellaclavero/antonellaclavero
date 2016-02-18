@@ -103,7 +103,6 @@ li.four-project {
 	background-color: #F3E0F7;
 	padding: 4% 0;
 }	
-/*transition for projects*/
 
 /*media queries*/
 
@@ -121,4 +120,25 @@ li.four-project {
 		float: none;
 		width: 100%;
 	}
+	li.project-card img {
+		height: auto;
+	}
+}
+@media screen and (max-width: 450px) {
+	header {
+		padding: 35px 0;
+	}
+	header img {
+		display: block;
+		margin: 0 auto;
+	}
+	nav {
+		float: none;
+	}
+	header nav ul {
+    	margin: 2em 0em 0 0.5em;
+    }
+    li.project-card img {
+    	height: auto;
+    }
 }
