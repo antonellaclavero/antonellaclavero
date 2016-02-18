@@ -66,4 +66,31 @@ section.about p.margin-before {
     color: red;
     margin: 0 5px;
 }
-	
+
+/*section projects*/
+
+.projects {
+	overflow: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+li.project-card {
+	float: left;
+    width: 50%;
+    list-style: none;
+}
+li.project-card img {
+	height: 400px;
+}
+li.first-project {
+	background-color: #E0F6F7;
+}
+li.second-project {
+	background-color: #F7EAE0;
+}
+li.three-project {
+	background-color: #F7F6E0;
+}	
+li.four-project {
+	background-color: #F3E0F7;
+}
