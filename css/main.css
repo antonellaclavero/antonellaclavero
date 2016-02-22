@@ -71,6 +71,7 @@ section.about p.margin-before {
 }
 
 /*section projects*/
+
 section.works {
 	padding: 90px 0 0 0;
 }
@@ -83,12 +84,13 @@ li.project-card {
 	float: left;
     width: 50%;
     list-style: none;
+   	cursor: pointer;	
 }
 li.project-card img {
 	height: auto;
 	margin: 0 auto;
 	display: block;
-	width: 100%;
+	width: 100%;	
 }
 li.first-project {
 	background-color: #E0F6F7;
@@ -104,7 +106,7 @@ li.three-project {
 li.four-project {
 	background-color: #F3E0F7;
 	padding: 6px 0;
-}	
+}
 
 /*media queries*/
 
