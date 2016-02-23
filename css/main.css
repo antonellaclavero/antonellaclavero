@@ -105,12 +105,12 @@ li.project-card {
    	padding: 246px 0;
 }
 li.first-project {
-	background: url(../images/gpm.png) center;
+	background: url(../images/gpm.png) center no-repeat;
 	background-color: #E0F6F7;
 	background-size: contain;
 }
 li.second-project {
-	background: url(../images/santiago-alonso.png) center;
+	background: url(../images/santiago-alonso.png) center no-repeat;
 	background-color: #F7EAE0;
 	background-size: cover;
 }
@@ -122,7 +122,7 @@ li.three-project {
 li.four-project {
 	background: url(../images/m2executives.png) center no-repeat;
 	background-color: #F3E0F7;
-}
+}	
 
 /*media queries*/
 
