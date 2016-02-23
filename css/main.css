@@ -27,10 +27,16 @@ a.btn {
     color: #fff;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14pt;
     letter-spacing: 2px;
     text-align: center;
+    opacity: 0;
 }
+
+a.btn:hover {
+	opacity: 1;
+}
+
 /*header*/
 
 header {
@@ -56,6 +62,9 @@ header nav li a {
 header nav li a.border {
 	border-right: 1px solid #979797;
 	border-left: 1px solid #979797;
+}
+header nav li a:hover {
+	color: #ff779e;
 }
 
 /*section about*/
@@ -98,7 +107,7 @@ li.project-card {
 li.first-project {
 	background: url(../images/gpm.png) center;
 	background-color: #E0F6F7;
-	background-size: cover;
+	background-size: contain;
 }
 li.second-project {
 	background: url(../images/santiago-alonso.png) center;
