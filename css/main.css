@@ -21,18 +21,16 @@ p,
 a {
 	font-family: 'Muli', sans-serif;
 }
-/*a.btn {
-	border: solid 2px #dadada;
+a.btn {
+	border: solid 2px #fff;
     padding: 1em 3%;
-    color: #bbbbbc;
+    color: #fff;
     background-color: transparent;
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 2px;
-    display: inline-block;
     text-align: center;
-    position: absolute;
-}*/
+}
 /*header*/
 
 header {
