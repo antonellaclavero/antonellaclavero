@@ -21,13 +21,22 @@ p,
 a {
 	font-family: 'Muli', sans-serif;
 }
-a.hidden {
-	display: none;
-}
+/*a.btn {
+	border: solid 2px #dadada;
+    padding: 1em 3%;
+    color: #bbbbbc;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}*/
 /*header*/
 
 header {
-	padding: 70px 20%;
+	padding: 70px 19%;
 }
 nav {
 	display: inline-block;
@@ -74,6 +83,7 @@ section.about p.margin-before {
 
 section.works {
 	padding: 90px 0 0 0;
+	text-align: center;
 }
 .projects {
 	overflow: auto;
@@ -90,11 +100,11 @@ li.project-card img {
 	height: auto;
 	margin: 0 auto;
 	display: block;
-	width: 100%;	
+	width: 100%;
 }
 li.first-project {
 	background-color: #E0F6F7;
-	padding-bottom: 33px;
+	padding-bottom: 17px;
 }
 li.second-project {
 	background-color: #F7EAE0;
