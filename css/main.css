@@ -94,28 +94,27 @@ li.project-card {
 	float: left;
     width: 50%;
     list-style: none;
-   	cursor: pointer;	
-}
-li.project-card img {
-	height: auto;
-	margin: 0 auto;
-	display: block;
-	width: 100%;
+   	cursor: pointer;
+   	padding: 246px 0;
 }
 li.first-project {
+	background: url(../images/gpm.png) center;
 	background-color: #E0F6F7;
-	padding-bottom: 17px;
+	background-size: cover;
 }
 li.second-project {
+	background: url(../images/santiago-alonso.png) center;
 	background-color: #F7EAE0;
+	background-size: cover;
 }
 li.three-project {
+	background: url(../images/vinoteca.png) center no-repeat;
 	background-color: #F7F6E0;
-	padding: 4% 0;
+	background-size: contain;
 }		
 li.four-project {
+	background: url(../images/m2executives.png) center no-repeat;
 	background-color: #F3E0F7;
-	padding: 6px 0;
 }
 
 /*media queries*/
