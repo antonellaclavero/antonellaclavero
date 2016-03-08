@@ -134,12 +134,13 @@ li.four-project {
 @media screen and (max-width: 700px) {
 	h1 {
 		margin-bottom: 0;
+		line-height: 23pt;
 	}
 	header {
     	padding: 55px 15%;
     }
 	section.about {
-    	padding: 0 15%;
+    	padding: 0 14%;
 	}
 	li.project-card {
 		float: none;
@@ -150,6 +151,9 @@ li.four-project {
 	}
 }
 @media screen and (max-width: 450px) {
+	h1 {
+		line-height: 24pt;
+	}
 	header {
 		padding: 35px 0;
 	}
@@ -161,9 +165,15 @@ li.four-project {
 		float: none;
 	}
 	header nav ul {
-    	margin: 2em 0em 0 0.5em;
+    	margin: 4em 0em 0 0.5em;
     }
-    li.project-card img {
+    section.about {
+    	padding: 50px 10%;
+	}	
+	section.about p.margin-before {
+    	margin-top: 22pt;
+    }
+    li.paddingroject-card img {
     	height: auto;
     }
 }
