@@ -25,20 +25,17 @@ a.btn {
 	border: solid 2px #fff;
     padding: 1em 3%;
     color: #fff;
-    background-color: transparent;
+    background-color: #fff;
     text-transform: uppercase;
     font-size: 14pt;
     letter-spacing: 2px;
     text-align: center;
-    opacity: 0;
-}
-
-a.btn:hover {
-	opacity: 1;
+    cursor: pointer;
 }
 .hidden {
     display: none;
 }
+
 /*header*/
 
 header {
@@ -106,7 +103,7 @@ li.project-card {
 	float: left;
     width: 50%;
     list-style: none;
-   	cursor: pointer;
+   	cursor: normal;
    	padding: 246px 0;
 }
 li.first-project {
@@ -128,7 +125,13 @@ li.four-project {
 	background: url(../images/m2executives.png) center no-repeat;
 	background-color: #F3E0F7;
 }	
-
+.works li .btn {
+	opacity: 0;
+}
+.works li:hover .btn {
+	opacity: 1;
+	color: #222;
+}
 /*media queries*/
 
 @media screen and (max-width: 700px) {
