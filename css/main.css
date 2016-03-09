@@ -87,6 +87,12 @@ section.about p.margin-before {
     color: red;
     margin: 0 5px;
 }
+section.about a {
+    color: #222;
+}
+section.about a:hover {
+    color: #ff779e;
+}
 
 /*section projects*/
 
