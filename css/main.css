@@ -89,6 +89,7 @@ section.about p.margin-before {
 }
 section.about a {
     color: #222;
+    text-decoration: underline;
 }
 section.about a:hover {
     color: #ff779e;
@@ -138,6 +139,7 @@ li.four-project {
 	opacity: 1;
 	color: #222;
 }
+
 
 /*media queries*/
 
