@@ -13,7 +13,7 @@ a {
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20pt;
-	line-height: 20pt;
+	line-height: 30pt;
 	margin-bottom: 10pt;
 	color: #222;
 }
@@ -73,14 +73,14 @@ section.about {
 }
 section.about p {
 	font-size: 14pt;
-	line-height: 18pt;
+	line-height: 21pt;
 	margin: 5pt 0;
 }
 section.about h1.translate.es {
     margin-bottom: 8pt;
 }
 section.about p.margin-before {
-	margin-top: 21pt;
+	margin-top: 10pt;
 }
 .icon-heart:before {
     content: "\e902";
